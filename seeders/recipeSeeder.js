@@ -17,9 +17,9 @@ const autoSeedRecipes = async () => {
         title: "Nasi Goreng Spesial",
         description: "Nasi goreng sederhana dan lezat untuk keluarga",
 
-        image: "https://images.unsplash.com/photo-1604908176997-4314d50b0b0c",
+        image: "https://www.google.com/imgres?q=png%20nasi%20goreng&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fed%2FNasi_goreng_seafood.png&imgrefurl=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FBerkas%3ANasi_goreng_seafood.png&docid=yt48DEvGAZG9hM&tbnid=0IdhT1SHxEcgCM&vet=12ahUKEwj57-vVmtySAxWCSWwGHVAAHvIQnPAOegQIGhAB..i&w=617&h=411&hcb=2&ved=2ahUKEwj57-vVmtySAxWCSWwGHVAAHvIQnPAOegQIGhAB",
 
-        videoUrl: "https://www.youtube.com/watch?v=m3HIvWlR9oA",
+        videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
         ingredients: [
           "2 piring nasi putih",
@@ -44,9 +44,9 @@ const autoSeedRecipes = async () => {
         title: "Ayam Goreng Crispy",
         description: "Ayam goreng renyah dan gurih",
 
-        image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nasi_goreng_seafood.png",
 
-        videoUrl: "https://www.youtube.com/watch?v=2z0z9D1V9xQ",
+        videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
         ingredients: [
           "500 gram ayam",
@@ -69,9 +69,9 @@ const autoSeedRecipes = async () => {
         title: "Soto Ayam",
         description: "Soto ayam hangat dan nikmat",
 
-        image: "https://images.unsplash.com/photo-1625944525533-473f1e2d54e7",
+        image: "https://www.dapurkobe.co.id/soto-ayamhttps://www.dapurkobe.co.id/wp-content/uploads/soto-ayam.jpg",
 
-        videoUrl: "https://www.youtube.com/watch?v=6f7XvZkq4I0",
+        videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
         ingredients: [
           "500 gram ayam",
@@ -95,7 +95,7 @@ const autoSeedRecipes = async () => {
         title: "Bakwan Sayur",
         description: "Gorengan sehat dan lezat",
 
-        image: "https://images.unsplash.com/photo-1633945274405-b6c8069047c9",
+        image: "https://images.tokopedia.net/img/KRMmCm/2023/6/13/d8a2cddd-0f20-4026-9118-97ee0a1934a0.jpg",
 
         videoUrl: "https://www.youtube.com/watch?v=R8rm2vVYc6Q",
 
