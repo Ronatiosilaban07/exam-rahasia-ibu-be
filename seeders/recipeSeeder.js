@@ -17,7 +17,7 @@ const autoSeedRecipes = async () => {
         title: "Nasi Goreng Spesial",
         description: "Nasi goreng sederhana dan lezat untuk keluarga",
 
-        image: "https://www.google.com/imgres?q=png%20nasi%20goreng&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fed%2FNasi_goreng_seafood.png&imgrefurl=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FBerkas%3ANasi_goreng_seafood.png&docid=yt48DEvGAZG9hM&tbnid=0IdhT1SHxEcgCM&vet=12ahUKEwj57-vVmtySAxWCSWwGHVAAHvIQnPAOegQIGhAB..i&w=617&h=411&hcb=2&ved=2ahUKEwj57-vVmtySAxWCSWwGHVAAHvIQnPAOegQIGhAB",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nasi_goreng_seafood.png",
 
         videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
@@ -44,7 +44,7 @@ const autoSeedRecipes = async () => {
         title: "Ayam Goreng Crispy",
         description: "Ayam goreng renyah dan gurih",
 
-        image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nasi_goreng_seafood.png",
+        image: "https://asset.kompas.com/crops/pbx_yXJty_AXSF_LLbyppjE8A1k=/72x15:952x601/1200x800/data/photo/2022/08/01/62e73d60a9595.jpg",
 
         videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
@@ -69,7 +69,7 @@ const autoSeedRecipes = async () => {
         title: "Soto Ayam",
         description: "Soto ayam hangat dan nikmat",
 
-        image: "https://www.dapurkobe.co.id/soto-ayamhttps://www.dapurkobe.co.id/wp-content/uploads/soto-ayam.jpg",
+        image: "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/23f62312738135ab286e78812093c46b/Derivates/2e373c2ef0bf36c9e8475cbf93347db5a3496309.jpg",
 
         videoUrl: "https://www.youtube.com/watch?v=zdMA5BxrofM&list=RDzdMA5BxrofM&start_radio=1",
 
@@ -92,7 +92,7 @@ const autoSeedRecipes = async () => {
       },
 
       {
-        title: "Bakwan Sayur",
+        title: "Bakwan Sayr",
         description: "Gorengan sehat dan lezat",
 
         image: "https://images.tokopedia.net/img/KRMmCm/2023/6/13/d8a2cddd-0f20-4026-9118-97ee0a1934a0.jpg",
@@ -131,3 +131,4 @@ const autoSeedRecipes = async () => {
 };
 
 module.exports = autoSeedRecipes;
+u
