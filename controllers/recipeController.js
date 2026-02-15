@@ -2,10 +2,34 @@ const Recipe = require("../models/Recipe");
 
 const getRecipes = async (req, res) => {
   try {
-    const recipes = await Recipe.find();
-    res.json(recipes);
+
+    const { search } = req.query;
+
+    let filter = {};
+
+    if (search) {
+      filter = {
+        $or: [
+          { title: { $regex: search, $options: "i" } },
+          { description: { $regex: search, $options: "i" } },
+        ],
+      };
+    }
+
+    const recipes = await Recipe.find(filter).sort({ createdAt: -1 });
+
+    res.json({
+      success: true,
+      data: recipes,
+    });
+
   } catch (error) {
-    res.status(500).json({ message: error.message });
+
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+
   }
 };
 
