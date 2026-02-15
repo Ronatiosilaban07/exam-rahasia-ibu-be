@@ -131,4 +131,3 @@ const autoSeedRecipes = async () => {
 };
 
 module.exports = autoSeedRecipes;
-u
